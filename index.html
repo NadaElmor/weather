@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- =================================fontswaome=================================-->
+  <link rel="stylesheet" href="./css/all.min.css" />
+  <!-- =================================bootstrap================================= -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css" />
+  <!-- =================================style css================================= -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg  p-4 text-white">
+    <div class="container">
+      <div class="logo d-flex justify-content-center align-items-center ">
+        <img src="./images/logo@2x.png" alt="logo">
+        <a class="navbar-brand text-white" href="#">Weather</a>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <!-- <li class="nav-item">
+            <a class="nav-link active text-white px-4" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white px-4" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white px-4" href="#">News</a>
+          <li class="nav-item">
+            <a class="nav-link text-white px-4" href="#">Live Camera</a>
+
+
+          </li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Photo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Contact</a>
+          </li> -->
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <section id="search">
+    <div class="container my-2">
+      <div class="search d-flex ">
+        <input type="text" placeholder="Find your location" class="form-control rounded-pill p-3" id="city">
+        <button type="button" class="btn  my-1 rounded-pill text-white" id="searchBtn">Find</button>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="weatherr">
+    <div class="container">
+      <div class="row ">
+        <div class="col-lg-4 p-0">
+          <div class="item  border border-dark rounded-start-2 ">
+            <div class="date d-flex justify-content-between align-items-center p-2">
+              <p class="mb-0 day-1">Saturday</p>
+              <p class="mb-0 date-1">2February</p>
+            </div>
+            <div class=" content p-3">
+              <span class="city-name fs-3">Cairo</span>
+              <div class="degree  ">
+                <p class="temp city-temp text-white  fw-bold">15 &#8451</p>
+                <img src="" alt="status" class="icon1 d-block">
+
+              </div>
+
+              <span class="status text-primary">clear</span>
+              <ul class="d-flex list-unstyled my-3">
+                <li class="me-4"> <i class="fa-solid fa-umbrella"></i>
+                  <span class="wind-speed1">12</span>
+                </li>
+                <li class="me-4"> <i class="fa-solid fa-wind"></i>
+                  <span class="wind-km1">13</span>
+                </li>
+                <li class="me-4"><i class="fa-regular fa-compass"></i>
+                  <span class="wind-dir1">12</span>
+                </li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 p-0">
+          <div class="item item2  text-center">
+            <p class="mb-0 day-2  p-2">Saturday</p>
+            <div class="content mt-5">
+              <span class="city-name">Cairo</span>
+              <p class="city-temp2 text-white fs-1">15oC</p>
+              <p class="city-tempf2">10</p>
+              <img src="" alt="status" class="icon2 d-block m-auto">
+              <span class="status2 text-primary">clear</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 p-0">
+          <div class="item item3   rounded-end-2 text-center">
+            <p class="mb-0 day-3  p-2">Saturday</p>
+            <div class="content mt-5">
+              <span class="city-name">Cairo</span>
+              <p class="city-temp3 text-white fs-1">15oC</p>
+              <p class="city-tempf3">10</p>
+              <img src="" alt="status" class="icon3 d-block m-auto">
+              <span class="status3 text-primary">clear</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="p-5">
+    <div class="container ">
+      <div class="row">
+        <div class="col-lg-9">
+          <div class="c">
+            <div class="search d-flex my-3 ">
+              <input type="text" placeholder="Find your email to subscribe" class="form-control rounded-pill p-3">
+              <button type="button" class="btn  my-1 rounded-pill text-white">Subscirbe</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="c">
+            <ul class="d-flex list-unstyled my-3">
+              <li class="me-3 d-flex justify-content-center align-items-center text-center"><i
+                  class="fa-brands fa-facebook-f "></i>
+              </li>
+              <li class="me-3 d-flex justify-content-center align-items-center text-center"><i
+                  class="fa-brands fa-twitter "></i></li>
+              <li class="me-3 d-flex justify-content-center align-items-center text-center"><i
+                  class="fa-brands fa-g "></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <span class="text-white ">Copyright 2014 Company name. Designed by Themezy. All rights reserved</span>
+    </div>
+  </section>
+
+
+  <!--=================================fontawsome================================= -->
+  <!-- <script src="./js/all.min.js"></script> -->
+  <!-- =================================bootstrao================================= -->
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <!-- =================================bootstrao================================= -->
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
